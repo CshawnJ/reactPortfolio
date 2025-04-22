@@ -1,0 +1,57 @@
+#about {
+  padding: 2rem 1rem;
+  background-color: #93d8ff;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.about-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.about-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.skills-interests {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 250px;
+}
+
+.column h3 {
+  color: #1030ff;
+  margin-bottom: 0.75rem;
+  font-size: 30px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,39 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  z-index: 100;
+  border-bottom: 1px solid #ddd;
+}
+
+.page {
+  padding: 4rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h2 { 
+  text-align: center;
+  font-size: 36px;
+}

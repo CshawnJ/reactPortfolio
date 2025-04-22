@@ -1,0 +1,22 @@
+.page {
+    margin: 0px;
+    padding: 0px;
+}
+.home {
+    height: 100vh;
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .home-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  

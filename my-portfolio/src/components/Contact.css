@@ -1,0 +1,40 @@
+#contact {
+    padding: 3rem 1rem;
+    background-color: #fff;
+    margin-top: 3rem;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  
+  input, textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+  }
+  
+  button {
+    background-color: #0077cc;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.85rem;
+  }
+  
